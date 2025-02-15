@@ -1,0 +1,46 @@
+{
+  "Version": 3,
+  "Name": "1519100",
+  "FileReferences": {
+    "Moc": "1519100.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "1519100.physics3.json",
+    "Motions": {
+      "bound": [
+        {
+          "File": "motions/bound.motion3.json"
+        }
+      ],
+      "bound_double": [
+        {
+          "File": "motions/bound_double.motion3.json"
+        }
+      ],
+      "bound_down": [
+        {
+          "File": "motions/bound_down.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_L_OPEN",
+        "PARAM_EYE_R_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}
